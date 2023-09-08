@@ -1,0 +1,609 @@
+* {
+    margin: 0;
+}
+.bg-container {
+    background-image: url("https://res.cloudinary.com/drmf7ywbu/image/upload/v1693828116/landscape-hills-covered-greenery-surrounded-by-sea-cloudy-sky-during-sunset_1_plw1dj.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.logo {
+    height: 60px;
+    width: 60px;
+}
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.heading {
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 700;
+}
+.description {
+    text-align: center;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.button {
+    background-color: aliceblue;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+@media screen and (max-width: 576px) {
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 150px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .heading {
+        font-family: Roboto;
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .description {
+        text-align: center;
+        color: #ffffff;
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .button {
+        background-color: aliceblue;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        height: 40px;
+        width: 100px;
+        color: black;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .heading {
+        font-family: Roboto;
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .description {
+        text-align: center;
+        color: #ffffff;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .button {
+        background-color: aliceblue;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        height: 40px;
+        width: 100px;
+        color: black;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .heading {
+        font-family: Roboto;
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .description {
+        text-align: center;
+        color: #ffffff;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .button {
+        background-color: aliceblue;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        height: 40px;
+        width: 100px;
+        color: black;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+}
+
+
+
+
+.popular-container {
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.popular-content {
+    margin-right: 20px;
+}
+.popular-heading {
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.popular-description {
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.popular-button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.popular-image {
+    height: 350px;
+    width: 100%;
+    border-radius: 20px;
+}
+@media screen and (max-width: 576px) {
+    .popular-container {
+        background-color: black;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .popular-content {
+        margin-right: 20px;
+        order: 1;
+    }
+    .popular-heading {
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .popular-description {
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .popular-button {
+        height: 40px;
+        width: 150px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: aliceblue;
+        color: black;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .popular-image {
+        height: 350px;
+        width: 100%;
+        border-radius: 20px;
+        order: 0;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    .popular-container {
+        background-color: black;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .popular-content {
+        margin-right: 20px;
+        order: 0;
+    }
+    .popular-heading {
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .popular-description {
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .popular-button {
+        height: 40px;
+        width: 150px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: aliceblue;
+        color: black;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .popular-image {
+        height: 350px;
+        width: 100%;
+        border-radius: 20px;
+        order: 1;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .popular-container {
+        background-color: black;
+        background-size: cover;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .popular-content {
+        margin-right: 20px;
+    }
+    .popular-heading {
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .popular-description {
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .popular-button {
+        height: 40px;
+        width: 150px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background-color: aliceblue;
+        color: black;
+        border-radius: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .popular-image {
+        height: 250px;
+        width: 100%;
+        border-radius: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+
+
+.look-deep-into-nature-container {
+    background-image: url("https://res.cloudinary.com/drmf7ywbu/image/upload/v1693810329/3d-sunset-landscape-with-female-with-arms-raised-joy_yso1iy.jpg");
+    background-size: cover;
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 60px;
+}
+@media screen and (max-width: 576px) {
+    .look-deep-into-nature-container {
+        background-image: url("https://res.cloudinary.com/drmf7ywbu/image/upload/v1693810329/3d-sunset-landscape-with-female-with-arms-raised-joy_yso1iy.jpg");
+        background-size: cover;
+        height: 50vh;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-size: 35px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    .look-deep-into-nature-container {
+        background-image: url("https://res.cloudinary.com/drmf7ywbu/image/upload/v1693810329/3d-sunset-landscape-with-female-with-arms-raised-joy_yso1iy.jpg");
+        background-size: cover;
+        height: 60vh;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        font-size: 40px;
+    }
+}
+
+
+
+
+
+.popular-destination-container {
+    background-color: black;
+    background-size: cover;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-family: Sans-Serif;
+}
+.popular-destination-heading {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.popular-destination-description {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 18px;
+}
+@media screen and (max-width: 576px) {
+    .popular-destination-container {
+        background-color: black;
+        background-size: cover;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-family: Sans-Serif;
+    }
+    .popular-destination-heading {
+        color: #ffffff;
+        text-align: center;
+        padding-top: 24px;
+        font-size: 20px;
+    }
+    .popular-destination-description {
+        color: #ffffff;
+        text-align: center;
+        padding-top: 16px;
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    .popular-destination-container {
+        background-color: black;
+        background-size: cover;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-family: Sans-Serif;
+    }
+    .popular-destination-heading {
+        color: #ffffff;
+        text-align: center;
+        padding-top: 24px;
+        font-size: 28px;
+    }
+    .popular-destination-description {
+        color: #ffffff;
+        text-align: center;
+        padding-top: 16px;
+        font-size: 18px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .popular-destination-container {
+        background-color: black;
+        background-size: cover;
+        padding-left: 100px;
+        padding-right: 100px;
+        font-family: Sans-Serif;
+    }
+    .popular-destination-heading {
+        color: #ffffff;
+        text-align: center;
+        padding-top: 24px;
+        font-size: 28px;
+    }
+    .popular-destination-description {
+        color: #ffffff;
+        text-align: center;
+        padding-top: 16px;
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+.places-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.place-container {
+    height: 410px;
+    width: 350px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    margin: 20px;
+}
+.place-image {
+    height: 180px;
+    width: 100%;
+    border-radius: 10px;
+}
+.place-heading {
+    color: #ffffff;
+    padding: 20px;
+    font-size: 18px;
+}
+.place-description {
+    color: #ffffff;
+    padding: 20px;
+    font-size: 13px;
+}
+@media screen and (max-width: 576px) {
+    .places-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .place-container {
+        height: 410px;
+        width: 350px;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .place-image {
+        height: 180px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .place-heading {
+        color: #ffffff;
+        padding: 20px;
+        font-size: 16px;
+    }
+    .place-description {
+        color: #ffffff;
+        padding: 20px;
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 577px) and (max-width: 767px) {
+    .places-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .place-container {
+        height: 400px;
+        width: 350px;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .place-image {
+        height: 180px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .place-heading {
+        color: #ffffff;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .place-description {
+        color: #ffffff;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .places-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .place-container {
+        height: 400px;
+        width: 350px;
+        border: 1px solid #ffffff;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .place-image {
+        height: 180px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .place-heading {
+        color: #ffffff;
+        padding: 10px;
+        font-size: 18px;
+    }
+    .place-description {
+        color: #ffffff;
+        padding: 10px;
+        font-size: 14px;
+    }
+}
+
+
+
+.footer {
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #ffffff;
+    font-family: Sans-Serif;
+}
